@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>
+<title>Nikhil Deep</title>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url("http://www.wallpapers4u.org/wp-content/uploads/equalizer_colorful_dark_background_66992_1920x1080.jpg");
+      background-size: cover;
+      color: white;
+     
+    
+       
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+       font-size:20px;
+    background: rgba(10,150,150,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 40px 0px 40px;
+    }
+    article{
+     max-width:500px;
+      padding:20px;
+      margin:0px auto;
+    }
+    body{
+        background: #98F;
+    }  
+  a{
+    color: #FCAFFE;
+    }  
+    @media (max-width:500px) {
+    
+      
+
+      h1{
+        font-size:36px;
+      }
+     article{
+    margin: 0 auto;
+    padding:20px;
+    }
+    
+  
+      li{
+        display:block;
+        padding:5px;
+      }
+      
+    
+    }
+    
+    
+      
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i0.wp.com/technicalblogging.com/wp-content/uploads/2016/08/writing-down-thoughts.jpg?resize=150%2C150">
+    <h1>Nikhil's Blog</h1>
+    <ul>
+      <li><a href="https://www.facebook.com/nikhil.deep.5855">About Me</a></li>
+      <li><a href="https://www.technewsworld.com/perl/section/tech-buzz/">Technology</a></li>
+      <li><a href="https://www.technewsworld.com/perl/section/reviews/">Reviews</a></li>
+    </ul>
+  </header>
+  <article>
+  
+  <h2>Microsoft Digs Deeper to Bankroll Open Source Initiative</h2>
+  <img src="https://www.technewsworld.com/article_images/story_graphics_xlarge/xl-2014-microsoft-sign-1.jpg" class="artimg">
+  <p>Microsoft this week became a premium sponsor of the Open Source Initiative, adding more financial heft to its growing commitment to the open source software movement. The company's new financial support will not translate into any special influence in the organization's decision making, noted OSI General Manager Patrick Masson. "OSI Corporate Sponsors have no role in OSI governance," he said.</p>
+  <button>Like</button>
+  </article>
+  <article>
+  <h2>Digital Hub Returns</h2>
+  <img src="https://www.technewsworld.com/article_images/story_graphics_xlarge/xl-2016-cloud-money-1.jpg">
+  <p>Digital Hub is not a new idea. It's been percolating for a few years, and its roots can be traced to Dublin, Ireland, where in a cluster of eight buildings, there exists what might be the original hub. In Dublin, it's made up of 97 companies employing 725 people, and it was given a jumpstart by the government in 2003. Elsewhere, we might be more attuned to the idea of a tech incubator.</p>
+  <button>Like</button>
+  </article>
+  <article>
+  <h2>Innovation Requires Market Enablement</h2>
+  <img src="https://www.technewsworld.com/article_images/story_graphics_xlarge/xl-2016-innovation-1.jpg">
+  <p>In this age of tech industry consolidation, one has to wonder what will happen with the pace of innovation as a few large companies begin to dominate. In personal computers, the WinTel marriage continues to control the technology, while Dell, HP and Lenovo control the devices. Similarly, in smartphones, Apple and Samsung, which both design their own chips and devices, dominate the market, especially in North America.</p>
+   <button>Like</button>
+  </article>
+  <article>
+  <h2>Sage Buys Intacct</h2>
+  <img src="https://www.technewsworld.com/ai/723142/sage.jpg">
+  <p>Sage's Tuesday announcement of its agreement to buy Intacct prompts a multilayered look at the evolution of the cloud ERP space. Both companies are partners with Salesforce and have products based on the Salesforce platform. Each is a member of the AppExchange, and both are situated in the broad cloud ERP space, which has been receiving a lot of attention lately as the market seems to be moving en masse, albeit glacially, to the cloud.</p>
+  <button>Like</button>
+  </article>
+   <script>$("button").on("click",function(){
+  alert("clicked!")
+  });</script>
+</body>
