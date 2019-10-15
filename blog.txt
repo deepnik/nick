@@ -5,7 +5,7 @@
   <style>
     header {
       text-align: center;
-      background: url("http://www.wallpapers4u.org/wp-content/uploads/equalizer_colorful_dark_background_66992_1920x1080.jpg");
+      background: url('http://www.wallpapers4u.org/wp-content/uploads/equalizer_colorful_dark_background_66992_1920x1080.jpg');
       background-size: cover;
       color: white;
      
